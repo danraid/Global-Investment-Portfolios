@@ -28,8 +28,8 @@ Esta fase do projeto é dedicada à **construção e validação das análises e
 ## 📂 Organização do Repositório
 
 📁 `docs/`
-   - 📄 [Kanban.md](docs/kanban.md) - Planejamento detalhado
-   - 📄 [Documento de Requisitos.md](docs/Documentos de Requisitos.md) - Engenharia de Requisitos
+   - 📄 [Kanban](docs/kanban.md) - Planejamento detalhado
+   - 📄 [Requisitos](docs/requisitos.md) - Engenharia de Requisitos
 
 📁 `docs/UML/`
    - 📊 [Diagrama de Casos de Uso](docs/UML/diagrama_casos_uso_analises.png)
