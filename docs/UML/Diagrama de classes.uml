@@ -1,0 +1,24 @@
+# Recriando apenas o Diagrama de Casos de Uso
+use_case = Digraph('Casos_de_Uso', format='png')
+use_case.attr(rankdir='LR')
+
+# Adicionando atores
+use_case.node('Usuário', shape='rectangle')
+use_case.node('Sistema', shape='rectangle')
+
+# Adicionando casos de uso
+use_case.node('Consultar Ativos', shape='ellipse')
+use_case.node('Calcular Indicadores', shape='ellipse')
+use_case.node('Otimizar Carteira', shape='ellipse')
+use_case.node('Prever Rentabilidade', shape='ellipse')
+
+# Conectando os atores aos casos de uso
+use_case.edge('Usuário', 'Consultar Ativos')
+use_case.edge('Usuário', 'Calcular Indicadores')
+use_case.edge('Usuário', 'Otimizar Carteira')
+use_case.edge('Usuário', 'Prever Rentabilidade')
+
+use_case.edge('Consultar Ativos', 'Sistema')
+use_case.edge('Calcular Indicadores', 'Sistema')
+use_case.edge('Otimizar Carteira', 'Sistema')
+use_case.edge('Prever Rentabilidade', 'Sistema')
