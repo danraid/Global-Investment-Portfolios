@@ -1,0 +1,14 @@
+### Arquivo de dependências para o ambiente virtual (requirements.txt)
+
+# Linguagem utilizada
+python==3.13.2
+
+# Gerenciador de pacotes
+pip==25.0
+
+distlib==0.3.9
+filelock==3.17.0
+virtualenv==20.29.1
+
+# Para rodar notebooks Jupyter
+jupyter==1.1.1
